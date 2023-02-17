@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "quarkus-test-21"
+  description: "Sample description for Quarkus Service."
+  annotations:
+    github.com/project-slug: assemble-platforms-test/quarkus-test-21
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - java
+    - quarkus
+  links:
+    - url: https://devspaces.apps.cluster-cpj6n.cpj6n.sandbox2621.opentlc.com/#https://github.com/assemble-platforms-test/quarkus-test-21?che-editor=che-incubator/che-code/insiders&devfilePath=.devfile-vscode.yaml
+      title: CodeReady Workspaces (VS Code)
+      icon: web
+    - url: https://devspaces.apps.cluster-cpj6n.cpj6n.sandbox2621.opentlc.com/#https://github.com/assemble-platforms-test/quarkus-test-21?che-editor=che-incubator/che-idea/next&devfilePath=.devfile-intellij.yaml
+      title: CodeReady Workspaces (JetBrains IntelliJ)
+      icon: web
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "mattheh"
